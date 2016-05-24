@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Chris' Comp's: Monitors</title>
+<link rel="icon" href="img/favicon (2).ico">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/grid_6.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+</head>
+
+<body onload="loadCart()">
+	<!--Header Start-->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="two-thirds"><a href="index.html"><h1 style="margin-bottom:0px;margin-top:15px;">Chris' Comp's<br><div class="tagline">Error 404 - Competition not found.</div></h1></a></div>
+				<div class="one-third">
+						<a href="cart.html"><img src="img/cart.png" style="width:20%; text-align:left; float:left; position:absolute; right:185px; top:30px;"></a>
+						<h3 style="text-align:right; margin-bottom:0px;"><a href="cart.html">Shopping Cart</a></h3><br>
+						<p style="text-align:right; margin-top:0px;"><a href="cart.html">Items (<span id="item_count">0</span>)</a> | <a id="checkout_link">Checkout</a></p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="two-thirds">
+					<div id='cssmenu'>
+							<ul>
+							  <li><a href="index.html">Home</a></li>
+							  <li><a href="cpus.html">CPU's</a></li>
+							  <li><a href="graphics.html">Graphics Cards</a></li>
+							  <li class="active"><a href="monitors.html">Monitors</a></li>
+							  <li><a href="keyboards.html">Keyboards</a></li>
+							  <li><a href="mice.html">Mice</a></li>
+							</ul>
+					</div>
+				</div>
+				<div class="one-third">
+					<div id="tfheader">
+								<input type="text" placeholder="Search" id="search" class="tftextinput" name="q" size="21" maxlength="110">
+								<input onclick="sendToPage()" id="searchbutton" type="submit" value=" " class="tfbutton">
+					<div class="tfclear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<!--Content Start-->
+	<article>
+		<div class="container">
+			<div class="row">
+				<h2 style="font-size:35px;margin-bottom:20px;">Monitors</h2>
+			</div
+			<div class="row">
+				Sort by: <select><option>Lowest → Highest</option></select>
+			</div>
+			<div class="container2">
+				<div class="row">
+					<div class="one-third"><img src="img\items\monitors\BenQ RL2455HM.jpg"></div>
+					<div class="one-third"><p><b>BenQ RL2455HM Black-Red 24" Gaming Monitor</b>
+					<ul>
+					<li>1ms GTG Response time</li>
+					<li>2 Speakers Built in</li>
+					<li>TN Panel</li>
+					<li>HDMI DVI-DL D-Sub</li>
+					</ul></p></div>
+					<div class="one-third"><p class="pricetag"><b>$179.99</b></p><button onclick="addToCart('011')" class="tocart">Add to Cart</button></div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="one-third"><img src="img\items\monitors\ASUS VG248QE.jpg"></div>
+					<div class="one-third"><p><b>ASUS VG248QE Black 24" Gaming Monitor</b>
+					<ul>
+					<li>144hz Refresh Rate</li>
+					<li>1ms GTG Response time</li>
+					<li>1920 x 1080 HD 3D Monitor</li>
+					<li>Built in speakers</li>
+					</ul></p></div>
+					<div class="one-third"><p class="pricetag"><b>$259.99</b></p><button onclick="addToCart('012')" class="tocart">Add to Cart</button></div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="one-third"><img src="img\items\monitors\BenQ XL2411Z.jpg"></div>
+					<div class="one-third"><p><b>BenQ XL2411Z Black 24" HDMI Widescreen Monitor</b>
+					<ul>
+					<li>144hz Refresh Rate</li>
+					<li>1ms GTG Response time</li>
+					<li>HDMI - 1920 x 1080 LCD 3D</li>
+					</ul></p></div>
+					<div class="one-third"><p class="pricetag"><b>$269.99</b></p><button onclick="addToCart('013')" class="tocart">Add to Cart</button></div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="one-third"><img src="img\items\monitors\Asus PG279Q.jpg"></div>
+					<div class="one-third"><p><b>ASUS ROG PG279Q Black 27" Gaming Monitor</b>					
+					<ul>
+					<li>165hz Refresh Rate</li>
+					<li>NVIDIA G-Sync</li>
+					<li>IPS 2560 x 1440</li>
+					<li>Ergonomic EyeCare Technology</li>
+					</ul></p></div>
+					<div class="one-third"><p class="pricetag"><b>$799.99</b></p><button onclick="addToCart('014')" class="tocart">Add to Cart</button></div>
+				</div>
+				<hr>
+				<div class="row" style="margin-bottom:40px;">
+					<div class="one-third"><img src="img\items\monitors\Acer UM.JX1AA.001.jpg"></div>
+					<div class="one-third"><p><b>Acer UM.JX1AA.001 Black 32"</b>
+					<ul>
+					<li>4ms Response Time</li>
+					<li>IPS Monitor - 1920 x 1080</li>
+					<li>Widescreen LED Backlight</li>
+					</ul></p></div>
+					<div class="one-third"><p class="pricetag"><b>$1099.99</b></p><button onclick="addToCart('015')" class="tocart">Add to Cart</button></div>
+				</div>
+			</div>
+		</div>		
+	</article>
+	
+	<!--Footer Start-->
+	<footer>
+		<div class="container">
+			<div class="row hide-mobile">
+				<div class="two-thirds"><h2>Get the best deals<br>with social media!</h2></div>
+			</div>
+			
+			<div class="row">
+				<div class="two-thirds">
+					<a href="http://www.facebook.com" target="_blank"><img class="logo" src="img/logos/facebook.png"></a>
+					<a href="http://www.twitter.com" target="_blank"><img class="logo" src="img/logos/twitter.png"></a>
+					<a href="http://www.pinterest.com" target="_blank"><img class="logo" src="img/logos/pinterest.png"></a>
+					<a href="http://www.instagram.com" target="_blank"><img class="logo" src="img/logos/instagram.png"></a>
+					<a href="http://www.youtube.com" target="_blank"><img class="logo" src="img/logos/youtube.png"></a>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="one-third"><h4>Contact Us: <br> (864) 123 - 4567 </h4></div>
+				<div class="one-third"><p>&copy; 2016 Chris's Comps. All rights unreserved.</p></div>
+				<div class="one-third" style="text-align:right;"><p>Page by: Chris G.</p></div>
+			</div>
+		</div>
+	</footer>
+
+<!-- JavaScript -->
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/nav.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>
